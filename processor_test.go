@@ -34,7 +34,7 @@ var _ = Describe("Event processor", func() {
 	})
 
 	Describe("NewPayEvent", func() {
-		var acc *ctgAccount
+		var acc *ctgAccounts
 
 		BeforeEach(func() {
 			acc, _ = NewCreateAccountEvent(name).Process()
