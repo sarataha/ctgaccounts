@@ -1,7 +1,7 @@
 package main_test
 
 import (
-	. "ctgAccounts"
+	. "ctgaccounts"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
