@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestCTGAccounts(t *testing.T) {
+func Testctgaccounts(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "ctgaccounts Suite")
 }
